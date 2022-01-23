@@ -3,7 +3,7 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 li {
   list-style: none;
@@ -14,4 +14,15 @@ body {
 }
 img {
   width: 100%;
+}
+.carousel-item a {
+  color: #d8339a;
+}
+.carousel-item a:hover {
+  background-color: #d8339a !important;
+  color: #fff;
+}
+
+.active-card {
+  margin-top: -25px;
 }

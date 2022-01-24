@@ -16,7 +16,7 @@
   </head>
   <body>
     <!-- /* Header Section Start */ -->
-    <header class="header-section">
+    <header class="header-section ">
       <nav class="navbar navbar-light bg-light py-3">
         <div class="container">
           <a class="navbar-brand fw-bold" href="#"> Spectra Convention Centre </a>
@@ -40,27 +40,27 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="img/banner.png" class="d-block w-100" alt="..." />
-              <div class="carousel-caption d-none d-md-block">
+              <div class="carousel-caption">
                 <div class="">
-                  <h1 class="display-5 fw-bold">
+                  <h1 class="display-5 fw-bold d-none d-sm-block">
                     The perfect venue for your <br />
                     next event
                   </h1>
-                  <p class="fs-5">
+                  <p class="fs-5 d-none d-md-block">
                     Amet minim mollit non deserunt ullamco est sit aliqua <br />dolor do amet sint. Velit officia consequat duis enim velit
                   </p>
-                  <a href="http://scc.com.bd/" target="_blank" class="btn bg-light fw-bold fs-6 px-5 py-2 mb-4">Book Now</a>
+                  <a href="http://scc.com.bd/" target="_blank" class="btn bg-light fw-bold fs-6 px-5 py-2 mb-0 mb-md-4 ">Book Now</a>
                 </div>
               </div>
             </div>
             <div class="carousel-item">
               <img src="img/banner-2-.jpg" class="d-block w-100" alt="..." />
-              <div class="carousel-caption d-none d-md-block">
-                <h1 class="display-5 fw-bold">
+              <div class="carousel-caption">
+                <h1 class="display-5 fw-bold d-none d-sm-block">
                   Face Club Bucharest Brand <br />
                   new luxury club in Bucharest
                 </h1>
-                <p class="fs-5">
+                <p class="fs-5 d-none d-md-block">
                   Amet minim mollit non deserunt ullamco est sit aliqua <br />dolor do amet sint. Velit officia consequat duis enim velit
                 </p>
                 <a href="http://scc.com.bd/" target="_blank" class="btn bg-light fw-bold fs-6 px-5 py-2 mb-4">Book Now</a>
@@ -68,12 +68,12 @@
             </div>
             <div class="carousel-item">
               <img src="img/banner-3.jpg" class="d-block w-100" alt="..." />
-              <div class="carousel-caption d-none d-md-block">
-                <h1 class="display-5 fw-bold">
+              <div class="carousel-caption">
+                <h1 class="display-5 fw-bold d-none d-sm-block">
                   Awarded as Best Club in <br />
                   Romania by WFC
                 </h1>
-                <p class="fs-5">
+                <p class="fs-5 d-none d-md-block">
                   Amet minim mollit non deserunt ullamco est sit aliqua <br />dolor do amet sint. Velit officia consequat duis enim velit
                 </p>
                 <a href="http://scc.com.bd/" target="_blank" class="btn bg-light fw-bold fs-6 px-5 py-2 mb-4">Book Now</a>
@@ -97,12 +97,23 @@
       <!-- Bonus section  -->
       <section class=""></section>
       <!-- package Section Start -->
-      <section class="py-5">
+      <section class="pt-5 pb-0 position-relative">
         <div class="container">
-          <div class="row">
-            <h2 class="display-5 fw-bold text-center" style="margin-bottom: 80px">Our package</h2>
-            <div class="col-12 col-md-6 col-lg-3">
-              <div class="card border-0 mb-md-4">
+          <div class="row ">
+            <h2 class="display-5 fw-bold text-center rounded" style="margin-bottom: 80px";>Our package</h2>
+            <!-- Toast Start  -->
+            <div class="toast Toast show position-absolute d-flex justify-content-end "  role="alert" aria-live="assertive" aria-atomic="true">
+              <div class="toast-header">
+                <i class="fas fa-gift me-2 fs-6" style="color: #d8339a;"></i>
+                <!-- <img src="..." class="rounded me-2" alt="..."> -->
+                <strong class="me-auto">20% off on next booking</strong>
+               <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+              </div>
+            
+            </div>
+            <!-- Toast End  -->
+            <div class="col-12 col-md-6 col-lg-3 ">
+              <div class="card border-0 py-5">
                 <div class="card-body">
                   <h2 class="card-title">$300</h2>
                   <h3 class="card-title my-3">Business fair</h3>
@@ -134,7 +145,7 @@
               </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3">
-              <div class="card border-0">
+              <div class="card border-0 py-5">
                 <div class="card-body">
                   <h2 class="card-title">$600</h2>
                   <h3 class="card-title my-3">Corporate event</h3>
@@ -166,13 +177,13 @@
               </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3">
-              <div class="active-card card border-0 rounded" style="background-color: #d8339a">
+              <div class=" card mb-md-5  border-0 rounded " style="background-color: #d8339a">
                 <div class="card-body text-light position-relative">
                   <span class="position-absolute p-2 top-0 start-100 translate-middle badge rounded-pill bg-danger">
                     Hot
                     <span class="visually-hidden">unread messages</span>
                   </span>
-                  <h2 class="card-title pt-3">$700</h2>
+                  <h2 class="card-title">$700</h2>
                   <h3 class="card-title my-3">Wedding plus</h3>
                   <p class="card-text">For most businesses event like book fair, craft fair.</p>
                   <div class="d-flex align-items-center my-2 text-muted">
@@ -202,7 +213,7 @@
               </div>
             </div>
             <div class="col-12 col-sm-6 col-lg-3">
-              <div class="card border-0">
+              <div class="card border-0 py-5">
                 <div class="card-body">
                   <h2 class="card-title">$500</h2>
                   <h3 class="card-title my-3">wedding basic</h3>
@@ -238,23 +249,59 @@
       </section>
       <!-- package Section End -->
       <!-- Gallery Section Start  -->
-      <section class="py-5">
+      <section class="pb-5 pt-0 gallery-section">
         <div class="container">
             <h2 class="display-5 fw-bold text-center pb-5" > See Our Gallery</h2>
-            <div class="row">
+            <div class="row d-flex g-5">
               <div class="colo-12 col-lg-3 col-md-6">
-                <div class="">
-                  <img src="" alt="">
+                <div>
+                  <img class="rounded" src="img/5.jpg" alt="" >
                 </div>
               </div>
+               <div class="colo-12 col-lg-3 col-md-6">
+                <div>
+                  <img class="rounded" src="img/3.jpg" alt="" >
+                </div>
+              </div>
+               <div class="colo-12 col-lg-3 col-md-6">
+                <div>
+                  <img class="rounded" src="img/4.jpg" alt="" >
+                </div>
+              </div>
+               <div class="colo-12 col-lg-3 col-md-6">
+                <div>
+                  <img class="rounded" src="img/6.jpg" alt="" >
+                </div>
+              </div>
+               <div class="colo-12 col-lg-3 col-md-6">
+                <div>
+                  <img class="rounded" src="img/1.jpg" alt="" >
+                </div>
+              </div>
+               <div class="colo-12 col-lg-3 col-md-6">
+                <div>
+                  <img class="rounded" src="img/2.jpg" alt="" >
+                </div>
+              </div>
+               <div class="colo-12 col-lg-3 col-md-6">
+                <div>
+                  <img class="rounded" src="img/7.jpg" alt="" >
+                </div>
+              </div>
+               <div class="colo-12 col-lg-3 col-md-6">
+                <div>
+                  <img class="rounded" src="img/8.jpg" alt="" >
+                </div>
+              </div>
+              
             </div>
         </div>
       </section>
       <!-- Gallery Section End  -->
       <!-- Frequently Asked Questions Start -->
-      <section class="pb-5">
+      <section class="pb-5 pt-3">
         <div class="container">
-            <h2 class="display-5 fw-bold text-center pb-5" >Frequently Asked Questions</h2>
+            <h2 class="display-5 fw-bold text-center  pb-5" >Frequently Asked Questions</h2>
           <div class="row">
             <div class="col-lg-6">
               <div class="accordion accordion-flush pb-5" id="accordionFlushExample">
@@ -268,7 +315,7 @@
                       aria-expanded="false"
                       aria-controls="flush-collapseOne"
                     >
-                      What’s the difference between event design and event planning?
+                      Whats the difference between event design and event planning?
                     </button>
                   </h2>
                   <div
@@ -332,22 +379,22 @@
                   </div>
                 </div>
                  <div class="accordion-item">
-                  <h2 class="accordion-header fw-bold" id="flush-headingThree">
+                  <h2 class="accordion-header fw-bold" id="flush-headingFour">
                     <button
                       class="accordion-button collapsed fw-bold fs-5"
                       type="button"
                       data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapseThree"
+                      data-bs-target="#flush-collapseFour"
                       aria-expanded="false"
-                      aria-controls="flush-collapseThree"
+                      aria-controls="flush-collapseFour"
                     >
                       How do you keep budgets on track?
                     </button>
                   </h2>
                   <div
-                    id="flush-collapseThree"
+                    id="flush-collapseFour"
                     class="accordion-collapse collapse"
-                    aria-labelledby="flush-headingThree"
+                    aria-labelledby="flush-headingFour"
                     data-bs-parent="#accordionFlushExample"
                   >
                     <div class="accordion-body text-muted">
@@ -358,8 +405,8 @@
               </div>
             </div>
             <div class="col-lg-6">
-              <div class="pb-5 my-5">
-                <img src="img/people.png" alt="" class="" />
+              <div class="pb-5 my-5 pepole">
+                <img src="img/people.png" alt="" />
               </div>
             </div>
           </div>
@@ -370,7 +417,25 @@
 
     <!-- Main Section End -->
     <!-- Footer Section Start  -->
-    <footer class="footer-section"></footer>
+    <footer class="footer-section bg-dark text-light py-5">
+      <div class="container">
+        <div class="row">
+        <div class=" col-sm-12 col-md-6 " >
+          <div class="d-flex flex-column align-items-center justify-content-md-center  align-items-md-start h-100 w-100">
+            <p> &copy; 2020 bike. All rights reserved</p>
+          </div>
+        </div>
+        <div class=" col-sm-12 col-md-6 ">
+          <div class=" d-flex flex-column align-items-center  justify-content-md-center align-items-md-end w-100">
+            <h5 class="me-5">Get App</h3>
+            <a href="http://scc.com.bd/" class="">
+              <img class="" src="img/apple.png" alt="" style="width: 130px; height: 90px;">
+            </a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </footer>
     <!-- Footer Section End  -->
     <script src="custom.js"></script>
     <script

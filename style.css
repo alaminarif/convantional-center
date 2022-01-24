@@ -3,14 +3,14 @@
 * {
   padding: 0;
   margin: 0;
-  /* box-sizing: border-box; */
-}
-li {
-  list-style: none;
+  box-sizing: border-box;
 }
 
 body {
   font-family: "Poppins", sans-serif;
+}
+header {
+  object-fit: contain;
 }
 img {
   width: 100%;
@@ -23,6 +23,19 @@ img {
   color: #fff;
 }
 
-.active-card {
-  margin-top: -25px;
+.gallery-section img {
+  border: 3px solid black;
+}
+.gallery-section img:hover {
+  border: 3px solid #d8339a !important;
+}
+.Toast {
+  width: 270px !important;
+  top: 20%;
+  right: 2%;
+  z-index: 2;
+}
+.pepole img {
+  max-width: 550px;
+  max-height: 340px;
 }
